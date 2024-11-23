@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import NavBar from "./components/navBar";
 import "./globals.css";
+import MenuBar from "./components/menuBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,10 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       
-      <body className={inter.className}>
-      <NavBar />
+      <body className="h-screen bg-gradient-to-r from-slate-400 via-slate-300 to-slate-200">
+      <MenuBar />
         {children}
         </body>
     </html>
