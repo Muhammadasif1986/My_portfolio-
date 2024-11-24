@@ -74,7 +74,7 @@ export default function About() {
         </div>
 
         <div className="mt-12 text-center">
-          <h3 className="text-2xl font-bold mb-4">Let`&apos;`s Connect</h3>
+          <h3 className="text-2xl font-bold mb-4">Let&apos;s Connect</h3>
           <p className="text-lg">
             I&apos;m always open to discussing exciting opportunities, projects, or
             just a casual chat!
