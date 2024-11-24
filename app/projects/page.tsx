@@ -3,7 +3,7 @@ import CardSection from '../components/CardSection'
 
 function Projects() {
   return (
-    <div>
+    <div className='min-h-screen'>
       <CardSection />
     </div>
   )

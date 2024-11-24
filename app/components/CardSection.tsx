@@ -31,8 +31,8 @@ function CardSection() {
   return (
     <main className={Ubuntu.className}>
       <h1 className="text-center text-5xl mb-3 mt-4">My Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4   bg-slate-600 p-12 gap-16 w-full text-white">
-        <div className="flex flex-col justify-center items-center bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 bg-slate-600 p-12 gap-16 w-full text-white">
+        <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
           <h2 className="text-xl mb-4">Pak Wheel UI</h2>
           <Image
             className="w-11/12 h-72 rounded-lg"
@@ -40,7 +40,9 @@ function CardSection() {
             alt="pakwheel"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://copy-pak-wheel.vercel.app/">
+            <Link href="https://copy-pak-wheel.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Visit
               </button>
@@ -56,14 +58,16 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/pak-wheel-copy/my-app">
+            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/pak-wheel-copy/my-app"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Code
               </button>
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
+        <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
           <h2 className="text-xl mb-4">Governor Sindh UI</h2>
           <Image
             className="w-11/12 h-72 rounded-lg"
@@ -71,7 +75,9 @@ function CardSection() {
             alt="governor"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://copy-governor-website.vercel.app/">
+            <Link href="https://copy-governor-website.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Visit
               </button>
@@ -87,14 +93,16 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/copy-governor-web/my-app">
+            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/copy-governor-web/my-app"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Code
               </button>
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
+        <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
           <h2 className="text-xl mb-4">Amazone UI</h2>
           <Image
             className="w-11/12 h-72 rounded-lg"
@@ -102,7 +110,9 @@ function CardSection() {
             alt="amazon"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://nextjs-class-projects.vercel.app/">
+            <Link href="https://nextjs-class-projects.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Visit
               </button>
@@ -118,14 +128,16 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/copy-amazon">
+            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/copy-amazon"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Code
               </button>
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
+        <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
           <h2 className="text-xl mb-4">M.Asif resume</h2>
           <Image
             className="w-11/12 h-72 rounded-lg"
@@ -133,7 +145,9 @@ function CardSection() {
             alt="resume"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://asifresume.vercel.app/">
+            <Link href="https://asifresume.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Visit
               </button>
@@ -149,14 +163,16 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/HACKATHON/tree/main/resume_builder">
+            <Link href="https://github.com/Muhammadasif1986/HACKATHON/tree/main/resume_builder"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Code
               </button>
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
+        <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
           <h2 className="text-xl mb-4">Simple Calculator</h2>
           <Image
             className="w-11/12 h-72 rounded-lg"
@@ -164,7 +180,9 @@ function CardSection() {
             alt="calculator"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://asif-simple-calculator.vercel.app/">
+            <Link href="https://asif-simple-calculator.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Visit
               </button>
@@ -180,14 +198,16 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/Html-CSS-Typescript-projects/tree/main/Calculator%20html">
+            <Link href="https://github.com/Muhammadasif1986/Html-CSS-Typescript-projects/tree/main/Calculator%20html"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Code
               </button>
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
+        <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
           <h2 className="text-xl mb-4">Tasbeeh</h2>
           <Image
             className="w-11/12 h-64 rounded-lg"
@@ -195,7 +215,9 @@ function CardSection() {
             alt="Tasbeeh"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://asif-tahbeeh.vercel.app/">
+            <Link href="https://asif-tahbeeh.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Visit
               </button>
@@ -211,14 +233,16 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/Html-CSS-Typescript-projects/tree/main/Tasbeeh">
+            <Link href="https://github.com/Muhammadasif1986/Html-CSS-Typescript-projects/tree/main/Tasbeeh"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Code
               </button>
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
+        <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
           <h2 className="text-xl mb-4">Pak Wheel UI</h2>
           <Image
             className="w-11/12 h-72 rounded-lg"
@@ -226,7 +250,9 @@ function CardSection() {
             alt="pakwheel"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://copy-pak-wheel.vercel.app/">
+            <Link href="https://copy-pak-wheel.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Visit
               </button>
@@ -242,14 +268,16 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/pak-wheel-copy/my-app">
+            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/pak-wheel-copy/my-app"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Code
               </button>
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
+        <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
           <h2 className="text-xl mb-4">Pak Wheel UI</h2>
           <Image
             className="w-11/12 h-72 rounded-lg"
@@ -257,7 +285,9 @@ function CardSection() {
             alt="pakwheel"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://copy-pak-wheel.vercel.app/">
+            <Link href="https://copy-pak-wheel.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Visit
               </button>
@@ -273,7 +303,9 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/pak-wheel-copy/my-app">
+            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/pak-wheel-copy/my-app"
+            target="_blank"
+            rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
                 Code
               </button>

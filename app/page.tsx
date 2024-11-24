@@ -4,9 +4,8 @@ import HeroSection from "./components/heroSection";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen">
       <HeroSection />
-      <CardSection />
     </div> 
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import MenuBar from "./components/menuBar";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className="h-screen bg-gradient-to-r from-slate-400 via-slate-300 to-slate-200">
       <MenuBar />
         {children}
+        <Footer />
         </body>
     </html>
   );
