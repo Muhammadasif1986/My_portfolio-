@@ -6,6 +6,8 @@ import amazon from "../../public/Amazone.png";
 import resum from "../../public/resume.png";
 import calculator from "../../public/calculator.png";
 import Tasbeeh from "../../public/Tasbeeh.png"
+import Timer from "../../public/countDown.png"
+
 import Link from "next/link";
 import { Ubuntu_Condensed } from "next/font/google";
 import { useState } from "react";
@@ -243,14 +245,14 @@ function CardSection() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center transition-all duration-300 transform hover:scale-105 bg-slate-900 rounded-xl h-96 py-4 shadow-2xl shadow-zinc-300">
-          <h2 className="text-xl mb-4">Pak Wheel UI</h2>
+          <h2 className="text-xl mb-4">Count Down Timer</h2>
           <Image
             className="w-11/12 h-72 rounded-lg"
-            src={Pakwheel}
+            src={Timer}
             alt="pakwheel"
           />
           <div className="flex justify-between items-center w-full pt-4 px-6">
-            <Link href="https://copy-pak-wheel.vercel.app/"
+            <Link href="https://count-down-pearl.vercel.app/"
             target="_blank"
             rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
@@ -268,7 +270,7 @@ function CardSection() {
                 : "Like"}
             </button>
 
-            <Link href="https://github.com/Muhammadasif1986/Nextjs_class-Projects/tree/main/pak-wheel-copy/my-app"
+            <Link href="https://github.com/Muhammadasif1986/30days-of-30projects/tree/main/Countdown-timer"
             target="_blank"
             rel="noopener noreferrer">
               <button className="bg-slate-900 py-2 px-4 rounded-lg hover:bg-slate-800 text-white">
