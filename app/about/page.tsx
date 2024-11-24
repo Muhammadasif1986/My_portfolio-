@@ -38,17 +38,17 @@ export default function About() {
           <div className="lg:w-2/3 lg:pl-12 text-gray-800">
             <h2 className="text-3xl font-bold mb-4">Who I Am</h2>
             <p className="text-lg mb-4">
-              Hello! I'm <span className="font-bold">Muhammad Asif</span>, a
+              Hello! I`&apos;`m <span className="font-bold">Muhammad Asif</span>, a
               passionate and driven web developer. I specialize in creating
               intuitive, dynamic, and visually engaging websites and
               applications. My journey into development began with a curiosity
-              to understand how websites function — and I haven't looked back
+              to understand how websites function — and I haven`&apos;`t looked back
               since.
             </p>
             <p className="text-lg mb-4">
               Currently, I am a student in the{' '}
               <span className="font-bold">
-                Governor Sindh's GenAI Program
+                Governor Sindh`&apos;`s GenAI Program
               </span>{' '}
               where I am enhancing my skills in cutting-edge technologies.
               Beyond coding, I enjoy solving complex problems, working on
