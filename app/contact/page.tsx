@@ -30,7 +30,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         
           <div className="bg-white shadow-md rounded-lg p-6">
-            <h2 className="text-2xl font-bold text-gray-700 mb-4">Let's Connect</h2>
+            <h2 className="text-2xl font-bold text-gray-700 mb-4">Let`&apos;`s Connect</h2>
             <p className="text-gray-600 mb-6">
               Feel free to reach out via email or phone, or connect with me on social media.
             </p>

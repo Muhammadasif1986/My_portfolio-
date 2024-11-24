@@ -25,7 +25,7 @@ function HeroSection() {
             <p>Hello! I`&apos;`m</p>
             <p>Muhammad Asif</p>
             <p className="mt-4 text-xl">
-              I'm a creative web developer passionate about building innovative digital solutions.
+              I`&apos;`m a creative web developer passionate about building innovative digital solutions.
             </p>
 
             <p className="mt-4 text-lg text-gray-600">

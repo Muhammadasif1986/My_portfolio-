@@ -67,16 +67,16 @@ export default function About() {
             <p className="mt-6 text-lg">
               My goal is to become a leading web developer by contributing to
               impactful projects that help businesses and individuals achieve
-              their goals. I'm always eager to collaborate, learn, and grow
+              their goals. I`&apos;`m always eager to collaborate, learn, and grow
               alongside other talented individuals in the tech community.
             </p>
           </div>
         </div>
 
         <div className="mt-12 text-center">
-          <h3 className="text-2xl font-bold mb-4">Let's Connect</h3>
+          <h3 className="text-2xl font-bold mb-4">Let`&apos;`s Connect</h3>
           <p className="text-lg">
-            I'm always open to discussing exciting opportunities, projects, or
+            I`&apos;`m always open to discussing exciting opportunities, projects, or
             just a casual chat!
           </p>
           <a
