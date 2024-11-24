@@ -22,14 +22,14 @@ function HeroSection() {
           />
 
           <div className="text-5xl w-full text-center mt-8 lg:ml-10 lg:mt-0 lg:text-start">
-            <p>Hello! I`&apos;`m</p>
+            <p>Hello! I&apos;m</p>
             <p>Muhammad Asif</p>
             <p className="mt-4 text-xl">
-              I`&apos;`m a creative web developer passionate about building innovative digital solutions.
+              I&apos;m a creative web developer passionate about building innovative digital solutions.
             </p>
 
             <p className="mt-4 text-lg text-gray-600">
-              I am currently enrolled in the Governor Sindh`&apos;`s GenAI Programme, where I am honing my skills in web development, artificial intelligence, and other cutting-edge technologies.
+              I am currently enrolled in the Governor Sindh&apos;s GenAI Programme, where I am honing my skills in web development, artificial intelligence, and other cutting-edge technologies.
             </p>
 
             <div className="flex flex-col justify-center space-y-4 lg:justify-start md:flex-row md:space-y-0 space-x-4 mt-6">

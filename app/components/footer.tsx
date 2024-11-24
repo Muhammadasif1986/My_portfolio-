@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="bg-gray-800 text-white">
       <div className="container mx-auto py-8 px-4 flex flex-col md:flex-row justify-between items-center">
         <div>
-          <h1 className="text-xl font-medium"></h1>I`&apos;`am Muhammad Asif
+          <h1 className="text-xl font-medium"></h1>I&apos;am Muhammad Asif
           <p className="text-sm mt-2 text-gray-400">
             Building dreams, one project at a time.
           </p>
