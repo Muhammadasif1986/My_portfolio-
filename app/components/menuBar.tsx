@@ -23,14 +23,14 @@ export default function MenuBar() {
   const handleMouseLeave = () => {
     timeout = setTimeout(() => {
       setIsMenuOpen(false);
-    }, 500); // Delay hiding by 200ms
+    }, 300);
   };
 
   return (
     <div className={edu_nsw.className}>
       <nav className="relative text-white bg-gradient-to-r from-gray-700 to-gray-900 shadow-lg">
         <div className="flex items-center justify-between py-4 px-6">
-          {/* Home Button */}
+          
           <Link
             href="/"
             className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-500 flex items-center text-lg"
@@ -39,7 +39,6 @@ export default function MenuBar() {
             <ImHome className="text-xl mr-2" /> Home
           </Link>
 
-          {/* Menu Button and Dropdown */}
           <div
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
